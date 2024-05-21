@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img src="img/vector.jpg" class="header__logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">About Us</a></li>
+                <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="header__nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img src="img/th (2).jpg" class="profile__img">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>¿Quien es este hombre?</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorem necessitatibus quibusdam quos delectus reprehenderit sunt harum explicabo laboriosam, hic, facere dolore esse adipisci quia repellat saepe iste laborum vitae ipsa nobis quidem deserunt doloremque ad consectetur! Accusamus unde quae praesentium nemo error labore vel, maiores amet doloremque autem quia.
+                        </p>
+                    </div>
+                    <div class="profile__skills-container">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load__bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="profile__skill-name">Html</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load__bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="profile__skill-name">Css</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load__bar">
+                                    <div class="load-bar__bar bar--50">50%</div>
+                                </div>
+                                <span class="profile__skill-name">JavaScript</span>
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load__bar">
+                                    <div class="load-bar__bar bar--70">70%</div>
+                                </div>
+                                <span class="profile__skill-name">Python</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolip__title">Portfolio Section</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Project</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="contact">
+        <h2 class="form__title">Contact</h2>
+        <form class="form__form" action="">
+            <div class="form__input-container">
+                <label for="">Nombre
+                    <input type="text" placeholder="John doe">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Apellido
+                    <input type="text" placeholder="John doe">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">E-mail
+                    <input type="mail" placeholder="yourmail@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Mensaje
+                    <textarea name="" placeholder="your message" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                    <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <strong>COMPANY</strong> - Copyright
+    </footer>
+
+</body>
+</html>
